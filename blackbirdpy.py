@@ -105,7 +105,8 @@ def embed_tweet_html(tweet_url, extra_css=None):
         )
 
     tweet_created_datetime = timestamp_string_to_datetime(tweet_json["created_at"])
-    tweet_easy_timestamp = easy_to_read_timestamp_string(tweet_created_datetime)
+    tweet_local_datetime = tweet_created_datetime + (datetime.datetime.now() - datetime.datetime.utcnow())
+    tweet_easy_timestamp = easy_to_read_timestamp_string(tweet_local_datetime)
 
     if extra_css is None:
         extra_css = {}
