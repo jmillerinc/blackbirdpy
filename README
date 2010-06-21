@@ -2,11 +2,15 @@ Blackbirdpy is a Python implementation of Blackbird Pie, the
 JavaScript tool @robinsloan uses to generate embedded HTML tweets for
 blog posts.
 
-See: http://media.twitter.com/blackbird-pie
-
 This Python version was written by Jeff Miller, http://twitter.com/jmillerinc
 
 Requires Python 2.6.
+
+Robin Sloan's original blog post about JS Blackbird Pie:
+    http://media.twitter.com/blackbird-pie
+
+Blog post about Blackbirdpy:
+    http://jmillerinc.com/2010/06/17/blackbirdpy-embedded-tweets-in-python/
 
 Usage:
 
@@ -18,8 +22,6 @@ Usage:
 - To generate embedded HTML for a tweet from the command line:
 
   $ python blackbirdpy.py <tweeturl>
-    e.g.
-  $ python blackbirdpy.py http://twitter.com/punchfork/status/16342628623
 
 - To run unit tests from the command line:
 
