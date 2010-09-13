@@ -5,7 +5,7 @@
 #
 # See: http://media.twitter.com/blackbird-pie
 #
-# This Python version was written by Jeff Miller, http://twitter.com/jmillerinc
+# This Python version was written by Jeff Miller, http://twitter.com/jeffmiller
 #
 # Requires Python 2.6.
 #
